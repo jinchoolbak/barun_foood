@@ -12,7 +12,7 @@
 <body>
     <h1 class="d-none">메인</h1>
     <header>
-        <div class="header d-flex j-between">
+        <div class="header container d-flex j-between">
             <h2 class="d-none">메인 헤더</h2>
             <div class="logo">
                 <a href="main.html">
@@ -39,27 +39,76 @@
     <main>
         <h2 class="d-none">메인 - 메인 시작</h2>
         <article>
-            <h2 class="t-center">New</h2>
+            <div class="carousel">
+                <div class="bg_cover">
+                    <h2 class="container">
+                        <span class="t-green t-upper">바른푸드</span>는 <br>
+                        만족을 넘어선 감동을 드릴 수 있는 최상의 제품을 제공합니다
+                    </h2>
+                </div>
+            </div>
         </article>
 
         <article>
-            <h2></h2>
+            <div id="new" class="container py3">
+                <button type="button"><i class="fa-solid fa-square-plus"></i></button>
+                <h2 class="t-center py3"> New</h2>
+                <ul class="d-flex j-center g3">
+                    <li>
+                        <a href="#">
+                            <img src="images/n1.jpg" width="350px" alt="n1">
+                            <p class="t-bold">통 닭가슴살</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/n2.jpg" width="350px" alt="n2">
+                            <p class="t-bold">한입 닭가슴살</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/n3.jpg" width="350px" alt="n3">
+                            <p class="t-bold">크리스피 닭가슴살</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </article>
 
+        <article>
+            <div id="popular" class="container d-flex j-center g1 py3">
+                <h2 class="d-none">인기상품 보러가기</h2>
+                <ul>
+                    <li class="t-bold"><span class="t-red">인기</span>상품 <br>
+                        이달의 베스트 인기상품
+                    </li>
+                    <p>보러가기 <i class="fa-solid fa-right-long"></i></p>
+                </ul>
+
+                <ul>
+                    <li class="t-bold"><span class="t-red">판매율 1위</span>상품 <br>
+                    이달의 판매율 1위상품</li>
+                    <p>보러가기 <i class="fa-solid fa-right-long"></i></p>
+                </ul>
+            </div>
         </article>
     </main>
-    <hr>
+
+    <hr class="my3">
+
     <footer>
-        <div class="footer d-flex j-between">
+        <div class="footer container d-flex j-between">
             <div class="texts">
                 <p>브랜드명 : 바른푸드</p>
                 <p>본사 : 광주광역시 서구 금호동 </p>
-                <p>회사명 : (주)바른푸드        대표 : 박진출    개인정보보호정책 및 담당 : 박진출</p>
-                <p>사업자등록번호 : 111-00-345674</p>
+                <p>회사명 : (주)바른푸드 | 대표 : 박진출 | 개인정보보호정책 및 담당 : 박진출</p>
+                <p>사업자등록번호 : 111-00-345674 | 전화번호 : 010-6809-9059</p></p>
             </div>
             <div class="sns">
-                <a href="#">facebook</a>
-                <a href="#">instagram</a>
-                <a href="#">kakaotalk</a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-solid fa-comment"></i></a>
             </div>
         </div>
         <div class="copy t-center">

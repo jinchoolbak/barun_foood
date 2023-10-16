@@ -1,0 +1,79 @@
+/* best */
+
+#best {
+    height: 600px;
+    position: relative;
+}
+
+.best_wrap i {
+    line-height: 300px;
+}
+
+#best button {
+    border: 0;
+    background: none;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 16%;
+    right: 5%;
+}
+
+#best img {
+    border-radius: 20px;
+}
+
+/* category */
+
+#c-tab {
+    height: 800px;
+}
+
+.c-title {
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.c-title h2 {
+    padding-bottom: 5rem;
+}
+
+.c-title i {
+    position: absolute;
+    top: 7%;
+    right: 8%;
+}
+
+.c-title li a {
+    line-height: 80px;
+    border: 0;
+    border-radius: 30px;
+    padding: .5rem;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+
+.c-body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.c-body li {
+    height: 250px;
+    position: relative;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.c-body button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 0;
+    border-radius: 30px;
+    background: black;
+    color: white;
+    padding: .5rem;
+}
