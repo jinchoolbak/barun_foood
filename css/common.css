@@ -73,6 +73,17 @@ body {
 .t-upper {
     font-size: 3rem;
 }
+.t-big {
+    font-size: 1.6rem;
+}
+.t-small {
+    font-size: .9rem;
+}
+
+.t-italic {
+    font-style: italic;
+}
+
 .t-bold {
     font-weight: 600;
 }
@@ -92,8 +103,17 @@ hr {
 
 /* header */
 .header {
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.header input {
+    width: 300px;
+    height: 30px;
+    border: 0;
+    background: black;
+    opacity: 30%;
+    color: white;
 }
 
 /* nav */
