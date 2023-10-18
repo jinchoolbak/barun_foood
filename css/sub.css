@@ -35,33 +35,58 @@
 }
 
 .c-title h2 {
+    padding-top: 7rem;
     padding-bottom: 5rem;
 }
 
 .c-title i {
     position: absolute;
-    top: 7%;
-    right: 8%;
+    top: 21%;
+    right: 3%;
 }
 
-.c-title li a {
-    line-height: 80px;
+.c-title li  {
+    line-height: 40px;
+    height: 40px;
+    width: 200px;
+    margin: 1rem 0;
     border: 0;
-    border-radius: 30px;
-    padding: .5rem;
+    border-radius: 10px;
     background: black;
     color: white;
     text-align: center;
 }
 
+.c-title li:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
 
-.c-body {
+.c-title a:link {
+    pointer-events: none; /*이벤트를 막음*/
+    cursor: default; /*마우스 커서를 포인트에서 디폴트로 변경*/
+}
+
+.c-body1,
+.c-body2,
+.c-body3,
+.c-body4,
+.c-body5,
+.c-body6,
+.c-body7 {
     width: 800px;
     margin: 0 auto;
     text-align: center;
 }
 
-.c-body li {
+.c-body1 li,
+.c-body2 li,
+.c-body3 li,
+.c-body4 li,
+.c-body5 li,
+.c-body6 li,
+.c-body7 li {
     width: 220px;
     height: 260px;
     position: relative;
@@ -71,17 +96,47 @@
     border-radius: 20px;
 }
 
-.c-body li img {
+.c-body1 li:hover,
+.c-body2 li:hover,
+.c-body3 li:hover,
+.c-body4 li:hover,
+.c-body5 li:hover,
+.c-body6 li:hover,
+.c-body7 li:hover {
+    background: black;
+    color: white;
+    padding-top: 1rem;
+}
+
+.c-body1 li img,
+.c-body2 li img,
+.c-body3 li img,
+.c-body4 li img,
+.c-body5 li img,
+.c-body6 li img,
+.c-body7 li img {
     border-radius: 20px;
     padding: 5px 0;
 }
 
-.c-body li p {
+.c-body1 li p,
+.c-body2 li p,
+.c-body3 li p,
+.c-body4 li p,
+.c-body5 li p,
+.c-body6 li p,
+.c-body7 li p {
     text-align: left;
     padding: 0 15px;
 }
 
-.c-body button {
+.c-body1 button,
+.c-body2 button,
+.c-body3 button,
+.c-body4 button,
+.c-body5 button,
+.c-body6 button,
+.c-body7 button {
     position: absolute;
     bottom: 3%;
     right: 3%;
@@ -90,4 +145,16 @@
     background: black;
     color: white;
     padding: .5rem;
+}
+
+.c-body1 button:hover,
+.c-body2 button:hover,
+.c-body3 button:hover,
+.c-body4 button:hover,
+.c-body5 button:hover,
+.c-body6 button:hover,
+.c-body7 button:hover {
+    background: white;
+    color: black;
+    padding: 0.5rem;
 }

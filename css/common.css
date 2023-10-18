@@ -107,15 +107,22 @@ hr {
     line-height: 60px;
 }
 
+.header i {
+    vertical-align: text-bottom;
+}
+
 .header input {
-    width: 300px;
+    width: 200px;
     height: 30px;
     border: 0;
-    background: black;
     opacity: 30%;
     color: white;
 }
 
+.header input:hover {
+    background: black;
+    color: white;
+}
 /* nav */
 
 .nav {
@@ -125,6 +132,11 @@ hr {
     border-bottom: 1px solid black;
 }
 
+.nav li:hover {
+    background: black;
+    color: white;
+}
+
 /* nav */
 
 .carousel {
@@ -132,12 +144,6 @@ hr {
     background: url("../images/bg.jpg") no-repeat center / cover;
 }
 
-.bg_cover {
-    background: black;
-    width: 1920px;
-    opacity: 30%;
-    height: 300px;
-}
 
 .carousel h2 {
     color: white;
