@@ -160,5 +160,6 @@ hr {
 .copy {
     font-size: .8rem;
     font-style: italic;
+    background: rgb(160, 186, 255);
 }
 

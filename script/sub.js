@@ -1,4 +1,14 @@
 $(() => {
+    //best
+    $("#prev").on("click", (() => {
+        $(".best_wrap1").css("display", "none");
+        $(".best_wrap").css("display", "flex");
+    }))
+    $("#next").on("click", (() => {
+        $(".best_wrap").css("display", "none");
+        $(".best_wrap1").css("display", "flex");
+    }))
+
     //tabs
     $(".c-title li:nth-child(1)").on("click", (() => {
         $(".c-body1").css("display", "block")

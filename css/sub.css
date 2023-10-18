@@ -9,8 +9,19 @@
     border-bottom: 3px solid rgb(160, 186, 255);
 }
 
-.best_wrap i {
+
+.best_wrap i,
+.best_wrap1 i {
     line-height: 300px;
+}
+
+.best_wrap i:hover,        
+.best_wrap1 i:hover {        
+    color: rgb(160, 186, 255);
+}   
+
+.best_wrap1 {
+    display: none;
 }
 
 #best button {
@@ -26,6 +37,7 @@
     color: rgb(160, 186, 255);
     border-top: 1px solid black;
 }
+
 
 #best img {
     border-radius: 20px;
@@ -164,4 +176,10 @@
     color: black;
     border: 1px solid black;
     padding: 0.5rem;
+}
+
+/*---media query-------*/
+@media all and (max-width: 576px) {
+    
+    
 }
