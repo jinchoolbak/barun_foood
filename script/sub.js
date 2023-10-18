@@ -63,5 +63,4 @@ $(() => {
         $(".c-body6").css("display", "none")
         $(".c-body7").css("display", "block")
     }))
-    
-})
+});

@@ -5,6 +5,10 @@
     position: relative;
 }
 
+#new li:hover {
+    border-bottom: 3px solid rgb(160, 186, 255);;
+}
+
 #new button {
     border: 0;
     background: none;
@@ -12,6 +16,11 @@
     position: absolute;
     top: 26%;
     right: 11%;
+}
+
+#new button:hover i {
+    color: rgb(160, 186, 255);
+    border-top: 1px solid black;
 }
 
 #new img {
@@ -25,19 +34,29 @@
 }
 
 #popular ul {
-    background: bisque;
-    border-radius: 30px;
-    width: 580px;
-    height: 200px;
+    border-radius: 3px;
+    width: 560px;
+    height: 150px;
     position: relative;
+    border: 1px solid black;
 }
 
+#popular ul:hover {
+    background: rgb(160, 186, 255);
+}
+
+#popular ul:hover p {
+    right: 2%;
+    color: white;
+}
+
+
 #popular li {
-    padding: 4rem 3rem;
+    padding: 3rem 3rem;
 }
 
 #popular p {
     position: absolute;
-    right: 4%;
+    right: 6%;
     top: 70%;
 }

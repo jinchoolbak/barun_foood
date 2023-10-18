@@ -5,6 +5,10 @@
     position: relative;
 }
 
+#best li:hover {
+    border-bottom: 3px solid rgb(160, 186, 255);
+}
+
 .best_wrap i {
     line-height: 300px;
 }
@@ -16,6 +20,11 @@
     position: absolute;
     top: 25%;
     right: 5%;
+}
+
+#best button:hover {
+    color: rgb(160, 186, 255);
+    border-top: 1px solid black;
 }
 
 #best img {
@@ -52,15 +61,13 @@
     margin: 1rem 0;
     border: 0;
     border-radius: 10px;
-    background: black;
-    color: white;
     text-align: center;
+    border: 1px solid black;
 }
 
 .c-title li:hover {
-    background: white;
-    color: black;
-    border: 1px solid black;
+    background: rgb(160, 186, 255);
+    color: white;
 }
 
 .c-title a:link {
@@ -92,7 +99,7 @@
     position: relative;
     margin: .5rem 0;
     font-size: 1rem;
-    background: white;
+    border: 1px solid black;
     border-radius: 20px;
 }
 
@@ -103,9 +110,8 @@
 .c-body5 li:hover,
 .c-body6 li:hover,
 .c-body7 li:hover {
-    background: black;
+    background: rgb(160, 186, 255);
     color: white;
-    padding-top: 1rem;
 }
 
 .c-body1 li img,
@@ -142,7 +148,7 @@
     right: 3%;
     border: 0;
     border-radius: 30px;
-    background: black;
+    background: rgb(160, 186, 255);
     color: white;
     padding: .5rem;
 }
@@ -156,5 +162,6 @@
 .c-body7 button:hover {
     background: white;
     color: black;
+    border: 1px solid black;
     padding: 0.5rem;
 }

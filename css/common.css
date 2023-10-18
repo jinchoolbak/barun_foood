@@ -16,7 +16,6 @@ a {
 
 body {
     font-size: 1.2rem;
-    background: rgb(255, 255, 186);
 }
 
 /* style class */
@@ -133,15 +132,16 @@ hr {
 }
 
 .nav li:hover {
-    background: black;
+    background: rgb(160, 186, 255);
     color: white;
+    border-radius: 5px;
 }
 
 /* nav */
 
 .carousel {
     height: 300px;
-    background: url("../images/bg.jpg") no-repeat center / cover;
+    background: url("../images/bg1.jpg") no-repeat center / cover;
 }
 
 
