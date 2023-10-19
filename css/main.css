@@ -6,7 +6,7 @@
 }
 
 #new li:hover {
-    border-bottom: 3px solid rgb(160, 186, 255);;
+
 }
 
 #new button {
@@ -27,14 +27,83 @@
     border-radius: 20px;
 }
 
+#new .cost {
+    text-decoration: line-through;
+    padding: 0;
+}
+
+
+/* find */
+#find h2 {
+    margin: 2rem 4rem;
+}
+
+#find h2:hover i {
+    padding-left: 4rem;
+}
+
+#find h2 i {
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#find .f-tag {
+    margin: 2rem 4rem;
+}
+
+#find .f-tag li {
+    font-weight: 800;
+}
+
+#f-body li {
+    width: 270px;
+    height: 300px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#f-body img {
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+.f-c {
+    margin: 0 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#find .cost {
+    text-decoration: line-through;
+    padding: 0;
+}
+
+.f-l  p {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+#f-body li:nth-child(1) {
+    margin-bottom: 20px
+}
+
+.f-r {
+    background: rgb(160, 186, 255);
+    border-radius: 20px;
+    width: 730px;
+    height: 500px;
+}
+
+
 /* popular */
 
 #popular {
+    margin-top: 3rem;
     height: 200px;
 }
 
 #popular ul {
-    border-radius: 3px;
+    border-radius: 10px;
     width: 560px;
     height: 150px;
     position: relative;
@@ -59,4 +128,35 @@
     position: absolute;
     right: 6%;
     top: 70%;
+}
+
+/*---media query-------*/
+@media all and (max-width: 500px) {
+    /*new*/
+    #new {
+        height: 1100px;
+    }
+
+    #new h2 {
+        font-size: 1.5rem;
+    }
+
+    #new button {
+        right: 23%;
+        top: 13%;
+    }
+
+    #new ul {
+        display: inline-block;
+        text-align: center;
+    }
+
+    #new li {
+        margin-bottom: 20px;
+    }
+
+    #new img {
+        width: 50%;
+    }
+
 }

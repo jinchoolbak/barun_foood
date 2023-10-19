@@ -5,11 +5,6 @@
     position: relative;
 }
 
-#best li:hover {
-    border-bottom: 3px solid rgb(160, 186, 255);
-}
-
-
 .best_wrap i,
 .best_wrap1 i {
     line-height: 300px;
@@ -43,10 +38,18 @@
     border-radius: 20px;
 }
 
+#best .cost {
+    text-decoration: line-through;
+    padding: 0;
+}
+
 /* category */
 
 #c-tab {
+   
     height: 800px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .c-title {
@@ -82,11 +85,6 @@
     color: white;
 }
 
-.c-title a:link {
-    pointer-events: none; /*이벤트를 막음*/
-    cursor: default; /*마우스 커서를 포인트에서 디폴트로 변경*/
-}
-
 .c-body1,
 .c-body2,
 .c-body3,
@@ -94,7 +92,9 @@
 .c-body5,
 .c-body6,
 .c-body7 {
-    width: 800px;
+    width: 840px;
+    height: 840px;
+    border-radius: 20px;
     margin: 0 auto;
     text-align: center;
 }
@@ -160,8 +160,8 @@
     right: 3%;
     border: 0;
     border-radius: 30px;
-    background: rgb(160, 186, 255);
-    color: white;
+    background: white;
+    border: 1px solid black;
     padding: .5rem;
 }
 
@@ -172,8 +172,8 @@
 .c-body5 button:hover,
 .c-body6 button:hover,
 .c-body7 button:hover {
-    background: white;
-    color: black;
+    background: rgb(160, 186, 255);
+    color: white;
     border: 1px solid black;
     padding: 0.5rem;
 }

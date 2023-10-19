@@ -6,14 +6,6 @@
     <title>바른푸드 홈페이지</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://kit.fontawesome.com/a44593fe97.js" crossorigin="anonymous"></script>
-    
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -27,20 +19,23 @@
                     <img src="images/logo.png" width="60%" alt="logo">
                 </a>
             </div>
-            <div class="h-right d-flex g2">
-                <div class="search"><input type="search" placeholder="검색어를 입력하세요."> <i class="fa-solid fa-magnifying-glass"></i> </div>
-                <div class="login">
-                    <a href="#"> login <i class="fa-solid fa-lock"></i></a>
-                    <a href="#"> join <i class="fa-solid fa-user"> </i></a>
+            <div class="h-right d-flex g3">
+                <div class="search">
+                    <input type="search" placeholder="검색어를 입력하세요."> 
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="login d-flex g2">
+                    <a href="javascript:void(0);"> login <i class="fa-solid fa-lock"></i></a>
+                    <a href="javascript:void(0);"> join <i class="fa-solid fa-user"> </i></a>
                 </div>
             </div>
         </div>
         <div class="nav">
             <ul id="gnb" class="d-flex j-center g3">
-                <li><a href="#">회사소개</a></li>
+                <li><a href="javascript:void(0);">회사소개</a></li>
                 <li><a href="sub.html">제품구매</a></li>
-                <li><a href="#">공지사항</a></li>
-                <li><a href="#">고객센터</a></li>
+                <li><a href="javascript:void(0);">공지사항</a></li>
+                <li><a href="javascript:void(0);">고객센터</a></li>
             </ul>
         </div>
     </header>
@@ -60,24 +55,42 @@
                 <h2 class="t-center py3"><span class="t-upper">NEW</span><br> 신제품 출시 </h2>
                 <ul class="d-flex j-center g3">
                     <li>
-                        <a href="#">
+                        <a href="javascript:void(0);">
                             <img src="images/n1.jpg" width="350px" alt="n1">
                             <p class="t-bold">통 닭가슴살 1kgx2개입</p>
-                            <p class="t-bold t-red">50%</p>
+                            <div class="t-bold d-flex j-between">
+                                <div class="d-flex">
+                                    <p class="t-blue">15,000원</span></p>
+                                    <p class="cost">30,000원</p>
+                                </div>
+                                <p class="sale t-red"> 50% </p>
+                            </div>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="javascript:void(0);">
                             <img src="images/n2.jpg" width="350px" alt="n2">
                             <p class="t-bold">한입 닭가슴살 300gx20개입</p>
-                            <p class="t-bold t-red">50%</p>
+                            <div class="t-bold d-flex j-between">
+                                <div class="d-flex">
+                                    <p class="t-blue">17,000원</span></p>
+                                    <p class="cost">30,000원</p>
+                                </div>
+                                <p class="sale t-red"> 50% </p>
+                            </div>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="javascript:void(0);">
                             <img src="images/n3.jpg" width="350px" alt="n3">
                             <p class="t-bold">크리스피 닭가슴살 100gx10개입</p>
-                            <p class="t-bold t-red">50%</p>
+                            <div class="t-bold d-flex j-between">
+                                <div class="d-flex">
+                                    <p class="t-blue">15,000원</span></p>
+                                    <p class="cost">30,000원</p>
+                                </div>
+                                <p class="sale t-red"> 50% </p>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -85,12 +98,95 @@
         </article>
 
         <article>
+            <div id="find" class="container">
+                <h2 class="t-center">많이 찾는 상품 <i class="fa-solid fa-chevron-right"></i> </h2>
+                <div class="f-tag">
+                    <ul class="d-flex j-center g1">
+                        <li><p>#훈제 닭가슴살</p></li>
+                        <li><p>#한입 닭가슴살</p></li>
+                        <li><p>#냉동 닭가슴살</p></li>
+                        <li><p>#크리스피 닭가슴살</p></li>
+                        <li><p>#닭가슴살바</p></li>
+                    </ul>
+                </div>
+                <div id="f-body" class="d-flex j-center">
+                    <div class="f-l">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <img src="images/f1.jpg" width="90%" alt="f1">
+                                    <p class="t-bold">훈제 닭가슴살</p>
+                                    <div class="d-flex t-bold">
+                                        <p class="t-blue">15,000원</span></p>
+                                        <p class="cost">30,000원</p>
+                                        <p class="sale t-red"> 50% </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <img src="images/c3.jpg" width="90%" alt="f1">
+                                    <p class="t-bold">한입닭가슴살</p>
+                                    <div class="d-flex t-bold">
+                                        <p class="t-blue">15,000원</span></p>
+                                        <p class="cost">30,000원</p>
+                                        <p class="sale t-red"> 50% </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="f-c">
+                        <a href="javascript:void(0);">
+                            <img src="images/f3.jpg" width="95%" alt="f3">
+                            <p class="t-bold"> 통 닭가슴살 7종 혼합 100g</p>
+                            <div class="d-flex t-bold j-center g2">
+                                <div class="d-flex">
+                                    <p class="t-blue">15,000원</span></p>
+                                    <p class="cost">30,000원</p>
+                                </div>
+                                <p class="sale t-red"> 50% </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="f-l">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <img src="images/c7.jpg" width="90%" alt="f1">
+                                    <p class="t-bold">닭가슴살바</p>
+                                    <div class="d-flex t-bold">
+                                        <p class="t-blue">15,000원</span></p>
+                                        <p class="cost">30,000원</p>
+                                        <p class="sale t-red"> 50% </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <img src="images/c4.jpg" width="90%" alt="f1">
+                                    <p class="t-bold">크리스피 닭가슴살</p>
+                                    <div class="d-flex t-bold">
+                                        <p class="t-blue">15,000원</span></p>
+                                        <p class="cost">30,000원</p>
+                                        <p class="sale t-red"> 50% </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article>
             <div id="popular" class="container d-flex j-center g1 py3">
                 <h2 class="d-none">인기상품 보러가기</h2>
-                <ul>
+                <ul class="d-flex">
                     <li class="t-bold"><span class="t-red t-big">인기</span>상품 <br>
                         이달의 베스트 인기
                     </li>
+                    <li class="d-none"><img src="images/n1.jpg" alt="n1"></li>
                     <p class="t-italic t-bold t-small">보러가기 <i class="fa-solid fa-right-long"></i></p>
                 </ul>
 
@@ -103,9 +199,8 @@
         </article>
     </main>
 
-    <hr class="my3">
-
     <footer>
+        <div id="up" class="t-center"><a href="#"><i class="fa-solid fa-angle-up"></i> TOP</a></div>
         <div class="footer container d-flex j-between">
             <div class="texts">
                 <p>브랜드명 : 바른푸드</p>
@@ -114,9 +209,9 @@
                 <p>사업자등록번호 : 111-00-345674 | 전화번호 : 010-6809-9059</p></p>
             </div>
             <div class="sns">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-                <a href="#"><i class="fa-solid fa-comment"></i></a>
+                <a href="javascript:void(0);"><i class="fa-brands fa-facebook"></i></a>
+                <a href="javascript:void(0);"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="javascript:void(0);"><i class="fa-solid fa-comment"></i></a>
             </div>
         </div>
         <div class="copy t-center">
