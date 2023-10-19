@@ -5,10 +5,6 @@
     position: relative;
 }
 
-#new li:hover {
-
-}
-
 #new button {
     border: 0;
     background: none;
@@ -110,8 +106,8 @@
     border: 1px solid black;
 }
 
-#popular ul:hover img {
-    font-size: 2rem;
+#popular ul:hover p {
+    right: 2%;
 }
 
 .popl {
