@@ -110,15 +110,16 @@
     border: 1px solid black;
 }
 
-#popular ul:hover {
-    background: rgb(160, 186, 255);
+#popular ul:hover img {
+    font-size: 2rem;
 }
 
-#popular ul:hover p {
-    right: 2%;
-    color: white;
+.popl {
+    background: url("../images/p-bg1.png") no-repeat center;
 }
-
+.popr {
+    background: url("../images/p-bg2.png") no-repeat center;
+}
 
 #popular li {
     padding: 3rem 3rem;
