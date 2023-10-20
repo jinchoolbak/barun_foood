@@ -122,17 +122,25 @@ hr {
     color: black;
 }
 
-.header button {
+.search {
     border: 0;
-    background: none;
-    font-size: 1.2rem;
+    height: 30px;
+    position: relative;
 }
 
-.header input:hover {
-    background: black;
-    color: white;
-    text-indent: 3%;
+.search input {
+    border: 1px solid gray;
 }
+
+.search button {
+    border: 0;
+    background: none;
+    font-size: 1rem;
+    position: absolute;
+    right: -12%;
+    top: 80%;
+}
+
 /* nav */
 
 .nav {
@@ -166,7 +174,6 @@ footer {
 #up {
     height: 20px;
     font-size: 1.5rem;
-
 }
 
 #up:hover a {
@@ -190,9 +197,18 @@ footer {
 
 /*---media query-------*/
 @media all and (max-width: 500px) {
+    
+    body {
+        font-size: 16px;
+    }
 
     header {
         border-bottom: 1px solid black;
+    }
+
+    header .logo {
+        margin-top: 15px;
+        width: 12%;
     }
 
     header .search {
@@ -203,9 +219,39 @@ footer {
         display: none;
     }
 
-    .carousel {
+    header .login a:nth-child(3) {
+        display: block;
+        padding-right: 1rem;
+    }
+
+    article .carousel {
         display: none;
     }
-   
+
+    article #new {
+        height: 700px;
+        text-align: center;
+    }
+
+    article #new ul li a {
+        width: 500px;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    article #new li .texts {
+        font-size: .9rem;
+        margin: 3rem 0;
+        width: 200px;
+    }
+
+    article #new li img {
+        border-radius: 200px;
+        width: 30%;
+    }
+
+
 
 }

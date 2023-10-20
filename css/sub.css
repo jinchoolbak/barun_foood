@@ -5,43 +5,35 @@
     position: relative;
 }
 
-.best_wrap i,
-.best_wrap1 i {
-    line-height: 300px;
+#best li {
+    position: relative;
 }
 
-.best_wrap i:hover,        
-.best_wrap1 i:hover {        
-    color: rgb(160, 186, 255);
-}   
-
-.best_wrap1 {
-    display: none;
-}
-
-#best button {
-    border: 0;
-    background: none;
-    font-size: 1.5rem;
-    position: absolute;
-    top: 25%;
-    right: 5%;
-}
-
-#best button:hover {
-    color: rgb(160, 186, 255);
-    border-top: 1px solid black;
-}
-
-
-#best img {
+#best li img {
     border-radius: 20px;
+    width: 323px;
 }
 
 #best .cost {
     text-decoration: line-through;
     padding: 0;
 }
+
+#best li:hover img {
+    opacity: 30%;
+}
+
+#best h4 {
+    display: none;
+    position: absolute;
+    right: 30%;
+    top: 39%;
+}
+
+#best li:hover h4 {
+    display: block;
+}
+
 
 /* category */
 
