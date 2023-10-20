@@ -197,16 +197,17 @@ footer {
 
 /*---media query-------*/
 @media all and (max-width: 500px) {
-    
+    /* * */
     body {
         font-size: 16px;
     }
 
+    /* header */
     header {
         border-bottom: 1px solid black;
         position: relative;
     }
-
+    
     header .logo {
         margin-top: 15px;
         padding-left: 1rem;
@@ -216,13 +217,20 @@ footer {
     header .search {
         position: absolute;
         top: 110%;
-        right: 15%;
+        right: 5%;
     }
-
+    
     header .search input {
-        width: 400px;
+        width: 450px;
+        height: 50px;
+        border-radius: 20px;
+        text-indent: 3%;
     }
-
+    
+    header .search button {
+        right: 3%;
+    }
+    
     header .nav {
         display: none;
     }
@@ -232,6 +240,7 @@ footer {
         padding-right: 1rem;
     }
 
+    /* footer */
     footer #up {
         display: none;
     }
