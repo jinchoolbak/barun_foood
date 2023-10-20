@@ -204,15 +204,23 @@ footer {
 
     header {
         border-bottom: 1px solid black;
+        position: relative;
     }
 
     header .logo {
         margin-top: 15px;
+        padding-left: 1rem;
         width: 12%;
     }
 
     header .search {
-        display: none;
+        position: absolute;
+        top: 110%;
+        right: 15%;
+    }
+
+    header .search input {
+        width: 400px;
     }
 
     header .nav {
@@ -224,34 +232,8 @@ footer {
         padding-right: 1rem;
     }
 
-    article .carousel {
+    footer #up {
         display: none;
     }
-
-    article #new {
-        height: 700px;
-        text-align: center;
-    }
-
-    article #new ul li a {
-        width: 500px;
-        text-align: left;
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-    }
-    
-    article #new li .texts {
-        font-size: .9rem;
-        margin: 3rem 0;
-        width: 200px;
-    }
-
-    article #new li img {
-        border-radius: 200px;
-        width: 30%;
-    }
-
-
 
 }

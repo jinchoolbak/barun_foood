@@ -184,31 +184,53 @@
 
 /*---media query-------*/
 @media all and (max-width: 500px) {
-    /*new*/
-    #new {
-        height: 1100px;
+
+    article .carousel {
+        display: none;
     }
 
-    #new h2 {
-        font-size: 1.5rem;
-    }
-
-    #new button {
-        right: 23%;
-        top: 13%;
-    }
-
-    #new ul {
-        display: inline-block;
+    article #new {
+        height: 750px;
         text-align: center;
     }
 
-    #new li {
-        margin-bottom: 20px;
+    article #new h2 {
+        font-size: 1.4rem;
     }
 
-    #new img {
-        width: 50%;
+    article #new button {
+        right: 23%;
+        top: 20%;
     }
+
+    article #new ul {
+        display: inline-block;
+        width: 400px;
+        border-top: 1px solid black;
+    }
+
+    article #new ul li:nth-child(1) {
+        margin-top: 2rem;
+    }
+    
+    article #new ul li a {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    article #new li .texts {
+        font-size: .9rem;
+        margin: 3rem 0;
+        width: 200px;
+    }
+
+    article #new li img {
+        border-radius: 200px;
+        width: 40%;
+    }
+
 
 }
