@@ -5,6 +5,25 @@
     position: relative;
 }
 
+#new li {
+    position: relative;
+}
+
+#new li:hover img {
+    opacity: 30%;
+}
+
+#new h4 {
+    display: none;
+    position: absolute;
+    right: 32%;
+    top: 40%;
+}
+
+#new li:hover h4 {
+    display: flex;
+}
+
 #new button {
     border: 0;
     background: none;
@@ -56,6 +75,11 @@
     height: 300px;
     border-radius: 30px;
     text-align: center;
+    position: relative;
+}
+
+#f-body .f-c {
+    position: relative;
 }
 
 #f-body img {
@@ -63,10 +87,41 @@
     border-radius: 20px;
 }
 
+#f-body li h4 {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
+#f-body .f-c h4 {
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    font-size: 1.5rem;
+}
+
+#f-body li:hover img {
+    opacity: 30%;
+}
+
+#f-body li:hover h4 {
+    display: block;
+}
+
+#f-body .f-c:hover h4 {
+    display: block;
+}
+
 .f-c {
     margin: 0 5px;
     border-radius: 20px;
     text-align: center;
+}
+
+.f-c:hover img {
+    opacity: 30%;
 }
 
 #find .cost {
@@ -107,7 +162,7 @@
 }
 
 #popular ul:hover p {
-    right: 2%;
+    right: 4%;
 }
 
 .popl {
@@ -123,7 +178,7 @@
 
 #popular p {
     position: absolute;
-    right: 6%;
+    right: 8%;
     top: 70%;
 }
 
