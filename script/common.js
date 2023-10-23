@@ -14,4 +14,12 @@ $(() => {
     }
     
     let intervalID = setInterval(slide, 3000);
+
+    //mobile menu
+    $(".login a:nth-child(3)").on("click", (() => {
+        $(".nav").css("display", "block");
+    }))
+    $(".close").on("click", (() => {
+        $(".nav").css("display", "none");
+    }))
 })
