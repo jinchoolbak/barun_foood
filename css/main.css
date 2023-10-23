@@ -184,11 +184,6 @@
 
 /*---media query-------*/
 @media all and (max-width: 500px) {
-    /* carousel */
-    .carousel {
-        display: none;
-    }
-    
     /* new */
     #new {
         height: 750px;
@@ -242,42 +237,48 @@
     }
     
     /* find */
+    #find {
+        height: 600px;
+    }
+
     #find h2 {
         font-size: 1.7rem;
     }
-        
+    
     #find .f-tag li span {
         display: none;
     }
-
+    
     #find #f-body {
         display: inline-block;
+        margin-left: 3rem;
     }
     
     #find #f-body .f-l ul {
         display: flex;
-        text-align: center;
     }
-
+    
     #find #f-body .f-l li {
-        width: 250px;
-        justify-content: center;
-    }
-
-    
-    #find #f-body .f-l p:first-child {
-        padding-left: 2.5rem;
-    }
-
-    #find #f-body .f-l p:nth-child(1) {
-        padding-left: 2.5rem;
+        width: 200px;
+        height: 250px;
     }
     
-    #find #f-body img {
-        width: 70%;
-        margin: 0;
-        padding: 0;
+    #find #f-body .f-c {
+        display: none;
+    }
+    
+    /* popular */
+    
+    #popular {
+        height: 350px;
+        display: inline-block;
+    }
+    
+    #popular ul {
+        width: 400px;
+        height: 150px;
+        margin: 1rem 0;
+        margin-left: 3.5rem;
     }
 
-    
 }

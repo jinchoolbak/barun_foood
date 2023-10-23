@@ -202,6 +202,11 @@ footer {
         font-size: 16px;
     }
 
+     /* carousel */
+     .carousel {
+        display: none;
+    }
+
     /* header */
     header {
         border-bottom: 1px solid black;
@@ -239,10 +244,51 @@ footer {
         display: block;
         padding-right: 1rem;
     }
-
+    
     /* footer */
+    footer {
+        position: relative;
+    }
+    
     footer #up {
         display: none;
+    }
+
+    footer #f-up {
+        display: block;
+        position: absolute;
+        top: -15%;
+        left: 48%;
+    }
+
+    footer .f-kind {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        font-weight: bold;
+        color: rgb(167, 166, 166);
+        text-shadow: 10px 0 0 0;
+    }
+
+    footer .f-kind p:hover {
+        border-bottom: 1px solid  rgb(167, 166, 166);
+    }
+
+    .footer .texts {
+        font-size: .8rem;
+        padding: 1rem .5rem;
+    }
+
+    .footer .sns {
+        display: none;
+    }
+
+    footer .f-sns {
+        display: flex;
+        font-size: 1.8rem;
+        justify-content: center;
+        gap: 2rem;
+        margin-bottom: .5rem;
     }
 
 }
