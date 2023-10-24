@@ -310,7 +310,7 @@
     
     #new ul {
         display: inline-block;
-        width: 350px;
+        width: 400px;
         border-top: 1px solid black;
     }
     
@@ -451,7 +451,7 @@
     }
     
     #new button {
-        right: 10%;
+        right: 9%;
         top: 21%;
     }
     

@@ -316,7 +316,7 @@
     #c-tab .c-body5 ul,
     #c-tab .c-body6 ul,
     #c-tab .c-body7 ul {
-        padding-left: 3rem;
+        padding-left: 4rem;
     }
 
     
@@ -430,7 +430,7 @@
     
     #best ul {
         display: inline-block;
-        width: 400px;
+        width: 350px;
         margin: 0 auto;
         border-top: 1px solid black;
     }
@@ -532,7 +532,7 @@
     #c-tab .c-body5 ul,
     #c-tab .c-body6 ul,
     #c-tab .c-body7 ul {
-        padding-left: 1rem;
+        padding-left: 1.5rem;
     }
 
     
@@ -578,7 +578,7 @@
     #c-tab .c-body5 img,
     #c-tab .c-body6 img,
     #c-tab .c-body7 img {
-        width: 100px;
+        width: 80px;
         border-radius: 200px;
         position: relative;
     }

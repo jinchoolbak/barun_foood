@@ -227,11 +227,11 @@ footer {
     header .search {
         position: absolute;
         top: 110%;
-        right: 15%;
+        right: 10%;
     }
     
     header .search input {
-        width: 350px;
+        width: 400px;
         height: 50px;
         border-radius: 30px;
         text-indent: 3%;
@@ -329,7 +329,7 @@ footer {
 @media all and (max-width: 425px) {
     /* * */
     body {
-        font-size: 12px;
+        font-size: 15px;
     }
 
      /* carousel */
@@ -364,6 +364,7 @@ footer {
     
     header .search button {
         right: 5%;
+        top: 80%;
         color: black;
     }
     
