@@ -246,7 +246,7 @@
     /* popup */
     .popup {
         width: 60%;
-        height: 800%;
+        height: 95%;
         line-height: 25px;
         box-shadow: 1px 1px 3px 3px;
         left: 0;
@@ -303,7 +303,7 @@
     }
     
     #new button {
-        right: 5%;
+        right: 15%;
         top: 21%;
     }
     

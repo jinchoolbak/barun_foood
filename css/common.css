@@ -227,18 +227,19 @@ footer {
     header .search {
         position: absolute;
         top: 110%;
-        right: 5%;
+        right: 15%;
     }
     
     header .search input {
         width: 350px;
         height: 50px;
-        border-radius: 20px;
+        border-radius: 30px;
         text-indent: 3%;
     }
     
     header .search button {
-        right: 10%;
+        right: 5%;
+        color: black;
     }
     
     header .nav {
