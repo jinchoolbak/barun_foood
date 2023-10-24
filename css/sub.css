@@ -55,10 +55,14 @@
     padding-bottom: 5rem;
 }
 
-.c-title i {
+.c-title .h2-point {
     position: absolute;
     top: 21%;
     right: 3%;
+}
+
+.c-title ul {
+    position: relative;
 }
 
 .c-title li  {
@@ -71,6 +75,19 @@
     text-align: center;
     border: 1px solid black;
 }
+
+.c-title .point1,
+.c-title .point2,
+.c-title .point3,
+.c-title .point4,
+.c-title .point5,
+.c-title .point6,
+.c-title .point7 {
+    position: absolute;
+    right: -30%;
+    font-size: 1.8rem;
+}
+
 
 .c-title li:hover {
     background: rgb(45, 86, 199);
@@ -86,9 +103,9 @@
 .c-body7 {
     width: 840px;
     height: 840px;
-    border-radius: 20px;
     margin: 0 auto;
     text-align: center;
+    border-left: 1px solid black;
 }
 
 .c-body1 li,
