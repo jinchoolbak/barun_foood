@@ -107,7 +107,7 @@ hr {
 }
 
 .header a:hover {
-    color: rgb(160, 186, 255);
+    color: rgb(45, 86, 199);
 }
 
 .header i {
@@ -151,7 +151,7 @@ hr {
 }
 
 .nav li:hover a {
-    border-bottom: 3px solid rgb(160, 186, 255);
+    border-bottom: 3px solid rgb(45, 86, 199);;
 }
 
 /* carousel */
@@ -164,6 +164,7 @@ hr {
 /* footer */
 footer {
     border-top: 1px solid black;
+    background:  rgb(45, 86, 199);
 }
 
 .footer {
@@ -191,7 +192,7 @@ footer {
 .copy {
     font-size: .8rem;
     font-style: italic;
-    background: rgb(160, 186, 255);
+    background: white;
 }
 
 

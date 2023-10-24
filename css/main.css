@@ -7,12 +7,12 @@
     text-align: center;
     background: white;
     border: 1px solid black;
-    box-shadow: 10px 5px 5px;
+    box-shadow: 3px 3px 3px 3px;
     position: absolute;
     width: 1000px;
     height: 750px;
-    top: 20%;
-    left: 25%;
+    top: 0%;
+    left: 0%;
     line-height: 50px;
     z-index: 999;
 }
@@ -93,7 +93,7 @@
 }
 
 #new button:hover i {
-    color: rgb(160, 186, 255);
+    color: rgb(45, 86, 199);
     border-top: 1px solid black;
 }
 
@@ -198,7 +198,7 @@
 }
 
 .f-r {
-    background: rgb(160, 186, 255);
+    background: rgb(45, 86, 199);
     border-radius: 20px;
     width: 730px;
     height: 500px;
@@ -243,6 +243,52 @@
 
 /*---media query-------*/
 @media all and (max-width: 500px) {
+    /* popup */
+    .popup {
+        width: 60%;
+        height: 100%;
+        line-height: 25px;
+        box-shadow: 1px 1px 3px 3px;
+        left: 0;
+        top: 0;
+    }
+
+    .popup h1 {
+        font-size: 1rem;
+    }
+
+    .popup h2 {
+        font-size: .8rem;
+    }
+
+    .notice {
+        display: none;
+    }
+
+    .m-notice {
+        display: block;
+        font-size: .7rem;
+    }
+
+    .popup ul li img:nth-child(2) {
+        display: none;
+    }
+
+    .popup ul li img:nth-child(3) {
+        display: block;
+        width: 100%;
+    }
+
+    .p-close {
+        font-size: .8rem;
+        padding: .3rem;
+    }
+
+    .popup li:hover .see {
+        font-size: .7rem;
+    }
+
+
     /* new */
     #new {
         height: 750px;
