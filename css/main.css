@@ -304,7 +304,7 @@
     }
     
     #new button {
-        right: 15%;
+        right: 10%;
         top: 21%;
     }
     
@@ -357,7 +357,7 @@
     
     #find #f-body {
         display: inline-block;
-        margin-left: 3rem;
+        margin-left: 3.4rem;
     }
     
     #find #f-body .f-l ul {

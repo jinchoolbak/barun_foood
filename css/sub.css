@@ -500,18 +500,18 @@
 
     #c-tab .c-title ul {
         width: 425px;
-        padding-left: 1.5rem;
+        padding-left: 1rem;
     }
     
     #c-tab .c-title li {
         float: left;
         margin-right: 5px;
-        font-size: .6rem;
-        width: 80px;
+        font-size: .7rem;
+        width: 85px;
     }
 
     #c-tab .c-title li:nth-child(4) {
-        width: 100px;
+        width: 110px;
     }
 
     #c-tab .c-title li:nth-child(5) {
@@ -532,7 +532,7 @@
     #c-tab .c-body5 ul,
     #c-tab .c-body6 ul,
     #c-tab .c-body7 ul {
-        padding-left: 1.5rem;
+        padding-left: 1rem;
     }
 
     
