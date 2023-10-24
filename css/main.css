@@ -242,6 +242,7 @@
 }
 
 /*---media query-------*/
+/* 500px---------------------------------------------------------- */
 @media all and (max-width: 500px) {
     /* popup */
     .popup {
@@ -252,15 +253,15 @@
         left: 0;
         top: 0;
     }
-
+    
     .popup h1 {
         font-size: 1rem;
     }
-
+    
     .popup h2 {
         font-size: .8rem;
     }
-
+    
     .notice {
         display: none;
     }
@@ -269,16 +270,16 @@
         display: block;
         font-size: .7rem;
     }
-
+    
     .popup ul li img:nth-child(2) {
         display: none;
     }
-
+    
     .popup ul li img:nth-child(3) {
         display: block;
         width: 100%;
     }
-
+    
     .p-close {
         font-size: .8rem;
         padding: .3rem;
@@ -287,8 +288,8 @@
     .popup li:hover .see {
         font-size: .7rem;
     }
-
-
+    
+    
     /* new */
     #new {
         height: 750px;
@@ -345,7 +346,7 @@
     #find {
         height: 600px;
     }
-
+    
     #find h2 {
         font-size: 1.7rem;
     }
@@ -356,7 +357,7 @@
     
     #find #f-body {
         display: inline-block;
-        margin-left: 2rem;
+        margin-left: 3rem;
     }
     
     #find #f-body .f-l ul {
@@ -380,10 +381,157 @@
     }
     
     #popular ul {
-        width: 400px;
+        width: 390px;
         height: 150px;
         margin: 1rem 0;
-        margin-left: 2.5rem;
+        margin-left: 4rem;
+    }
+
+}
+
+/* 425px---------------------------------------------------------- */
+@media all and (max-width: 425px) {
+    /* popup */
+    .popup {
+        width: 60%;
+        height: 80%;
+        line-height: 25px;
+        box-shadow: 1px 1px 3px 3px;
+        left: 0;
+        top: 0;
+    }
+
+    .popup h1 {
+        font-size: 1rem;
+    }
+
+    .popup h2 {
+        font-size: .8rem;
+    }
+
+    .notice {
+        display: none;
+    }
+
+    .m-notice {
+        display: block;
+        font-size: .7rem;
+    }
+
+    .popup ul li img:nth-child(2) {
+        display: none;
+    }
+
+    .popup ul li img:nth-child(3) {
+        display: block;
+        width: 100%;
+    }
+
+    .p-close {
+        font-size: .8rem;
+        padding: .3rem;
+    }
+
+    .popup li:hover .see {
+        font-size: .7rem;
+    }
+
+
+    /* new */
+    #new {
+        height: 750px;
+        text-align: center;
+    }
+    
+    #new h2 {
+        font-size: 1.3rem;
+    }
+    #new h2 span {
+        font-size: 1.8rem;
+    }
+    
+    #new button {
+        right: 10%;
+        top: 21%;
+    }
+    
+    #new ul {
+        display: inline-block;
+        width: 350px;
+        border-top: 1px solid black;
+    }
+    
+    #new ul li:nth-child(1) {
+        margin-top: 2rem;
+    }
+    
+    #new ul li a {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    #new li .texts {
+        font-size: .9rem;
+        margin: 3rem 0;
+        width: 200px;
+    }
+    
+    #new li img {
+        border-radius: 200px;
+        width: 40%;
+    }
+    
+    #new li:hover h4 {
+        top: 44%;
+        left: 11%;
+    }
+    
+    /* find */
+    #find {
+        height: 600px;
+    }
+
+    #find h2 {
+        font-size: 1.7rem;
+    }
+    
+    #find .f-tag li span {
+        display: none;
+    }
+    
+    #find #f-body {
+        display: inline-block;
+        margin-left: .8rem;
+    }
+    
+    #find #f-body .f-l ul {
+        display: flex;
+    }
+    
+    #find #f-body .f-l li {
+        width: 200px;
+        height: 250px;
+    }
+    
+    #find #f-body .f-c {
+        display: none;
+    }
+    
+    /* popular */
+    
+    #popular {
+        height: 350px;
+        display: inline-block;
+    }
+    
+    #popular ul {
+        width: 380px;
+        height: 150px;
+        margin: 1rem 0;
+        margin-left: 1.5rem;
     }
 
 }
