@@ -38,10 +38,9 @@
 /* category */
 
 #c-tab {
-   
     height: 800px;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 9rem;
 }
 
 .c-title {
@@ -76,21 +75,8 @@
     border: 1px solid black;
 }
 
-.c-title .point1,
-.c-title .point2,
-.c-title .point3,
-.c-title .point4,
-.c-title .point5,
-.c-title .point6,
-.c-title .point7 {
-    position: absolute;
-    right: -30%;
-    font-size: 1.8rem;
-}
-
-
-.c-title li:hover {
-    background: rgb(45, 86, 199);
+.c-title li:first-child {
+    background:  rgb(45, 86, 199);
     color: white;
 }
 

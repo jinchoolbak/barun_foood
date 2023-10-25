@@ -29,14 +29,17 @@ $(() => {
         $(".c-body5").css("display", "none")
         $(".c-body6").css("display", "none")
         $(".c-body7").css("display", "none")
-        //tab에 포인트 활성화
-        $(".point1").addClass("d-none")
-        $(".point2").removeClass("d-none")
-        $(".point3").addClass("d-none")
-        $(".point4").addClass("d-none")
-        $(".point5").addClass("d-none")
-        $(".point6").addClass("d-none")
-        $(".point7").addClass("d-none")
+        //tab title 클릭 시 백그라운드 적용
+        $(".c-title li:nth-child(1)").css("background", "none")
+        $(".c-title li:nth-child(2)").css({
+            background: "rgb(45, 86, 199)",
+            color: "white"
+        })
+        $(".point3").css("background", "white")
+        $(".point4").css("background", "white")
+        $(".point5").css("background", "white")
+        $(".point6").css("background", "white")
+        $(".point7").css("background", "white")
     }))
     $(".c-title li:nth-child(3)").on("click", (() => {
         //tab 활성화

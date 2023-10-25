@@ -67,7 +67,7 @@ body {
 }
 
 .t-blue {
-    color: rgb(41, 17, 110);
+    color: rgb(45, 86, 199);
 }
 .t-red {
     color: rgb(170, 42, 42);
@@ -106,16 +106,17 @@ hr {
 
 /* header */
 .header {
-    height: 60px;
-    line-height: 60px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.header .logo img {
+    width: 50%;
+    padding-top: 1rem;
 }
 
 .header a:hover {
     color: rgb(45, 86, 199);
-}
-
-.header i {
-    vertical-align: text-bottom;
 }
 
 .header input {
@@ -142,16 +143,15 @@ hr {
     font-size: 1rem;
     position: absolute;
     right: -12%;
-    top: 80%;
+    top: 110%;
 }
 
 /* nav */
 
 .nav {
-    height: 45px;
-    line-height: 45px;
+    height: 60px;
+    line-height: 60px;
     border-top: 1px solid black;
-    border-bottom: 1px solid black;
 }
 
 .nav li:hover a {
@@ -160,7 +160,6 @@ hr {
 
 /* carousel */
 .carousel img {
-    width: 1920px;
     height: 300px;
     /* background: url("../images/bg1.jpg") no-repeat center / cover; */
 }

@@ -46,13 +46,13 @@
 .popup .see {
     position: absolute;
     top: 40%;
-    left: 40%;
+    left: 45%;
     color: black;
 }
 
 .popup li:hover .see {
     display: block;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .p-close {
@@ -89,8 +89,9 @@
 #new h4 {
     display: none;
     position: absolute;
-    right: 32%;
-    top: 40%;
+    right: 40%;
+    top: 35%;
+    font-size: 3rem;
 }
 
 #new li:hover h4 {
@@ -163,16 +164,17 @@
 #f-body li h4 {
     display: none;
     position: absolute;
-    top: 40%;
-    left: 28%;
+    top: 35%;
+    left: 40%;
+    font-size: 3rem;
 }
 
 #f-body .f-c h4 {
     display: none;
     position: absolute;
-    top: 45%;
-    left: 38%;
-    font-size: 1.5rem;
+    top: 40%;
+    left: 42%;
+    font-size: 5rem;
 }
 
 #f-body li:hover img {
@@ -264,10 +266,6 @@
         height: 40%;
         top: 20%;
         left: 25%;
-    }
-
-    .popup-info h1 {
-        font-size: 1.5rem;
     }
 
     .popup-info h2 {
@@ -392,10 +390,6 @@
         height: 36%;
         top: 20%;
         left: 23%;
-    }
-
-    .popup-info h1 {
-        font-size: 1.5rem;
     }
 
     .popup-info h2 {
