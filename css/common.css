@@ -219,8 +219,8 @@ footer {
         font-size: 16px;
     }
 
-     /* carousel */
-     .carousel {
+    /* carousel */
+    .carousel {
         display: none;
     }
 
@@ -276,6 +276,7 @@ footer {
     }
 
     header .close {
+        display: block;
         position: absolute;
         bottom: 0;
         right: 0;
@@ -304,6 +305,7 @@ footer {
         position: absolute;
         top: -15%;
         left: 48%;
+        color: black;
     }
 
     footer .f-kind {

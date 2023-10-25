@@ -20,6 +20,15 @@
     background: white;
     text-align: center;
     position: fixed;
+    padding: 1rem;
+}
+
+.popup-info h2 {
+    margin-bottom: 2rem;
+}
+
+.popup-info p {
+    margin-bottom: 1.5rem;
 }
 
 .popup img {
@@ -51,8 +60,9 @@
     top: 2%;
     right: 2%;
     border: 0;
-    background: none;
-    border-radius: 20px;
+    background: black;
+    color: white;
+    border-radius: 3px;
     padding: .5rem;
     font-size: 1rem;
 }
@@ -252,8 +262,8 @@
     .popup-info {
         width: 50%;
         height: 40%;
-        top: 22%;
-        left: 27%;
+        top: 20%;
+        left: 25%;
     }
 
     .popup-info h1 {
@@ -268,6 +278,10 @@
     .popup-info p {
         font-size: .8rem;
         margin-bottom: 1rem;
+    }
+
+    .popup-info .p-close {
+        font-size: .6rem;
     }
     
     
@@ -372,52 +386,32 @@
 
 /* 425px---------------------------------------------------------- */
 @media all and (max-width: 425px) {
-    /* popup */
-    .popup {
-        width: 60%;
-        height: 80%;
-        line-height: 25px;
-        box-shadow: 1px 1px 3px 3px;
-        left: 0;
-        top: 0;
+     /* popup */
+    .popup-info {
+        width: 50%;
+        height: 36%;
+        top: 20%;
+        left: 23%;
     }
 
-    .popup h1 {
+    .popup-info h1 {
+        font-size: 1.5rem;
+    }
+
+    .popup-info h2 {
         font-size: 1rem;
+        margin-bottom: 1rem;
     }
-
-    .popup h2 {
+    
+    .popup-info p {
         font-size: .8rem;
+        margin-bottom: 1rem;
     }
 
-    .notice {
-        display: none;
+    .popup-info .p-close {
+        font-size: .6rem;
     }
-
-    .m-notice {
-        display: block;
-        font-size: .7rem;
-    }
-
-    .popup ul li img:nth-child(2) {
-        display: none;
-    }
-
-    .popup ul li img:nth-child(3) {
-        display: block;
-        width: 100%;
-    }
-
-    .p-close {
-        font-size: .8rem;
-        padding: .3rem;
-    }
-
-    .popup li:hover .see {
-        font-size: .7rem;
-    }
-
-
+    
     /* new */
     #new {
         height: 750px;
