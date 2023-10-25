@@ -167,8 +167,9 @@ hr {
 
 /* footer */
 footer {
-    border-top: 1px solid black;
-    background:  rgb(45, 86, 199);
+    background:  #3c3c3c;
+    color: white;
+    position: relative;
 }
 
 .footer {
@@ -176,9 +177,21 @@ footer {
     font-size: .8rem;
 }
 
+.footer .texts {
+    padding-top: 1.5rem;
+}
+
+.footer .sns {
+    padding-top: 1rem;
+}
+
 #up {
     height: 20px;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: black;
+    position: absolute;
+    top: -40%;
+    left: 49%;
 }
 
 #up:hover a {
@@ -196,7 +209,6 @@ footer {
 .copy {
     font-size: .8rem;
     font-style: italic;
-    background: white;
 }
 
 
