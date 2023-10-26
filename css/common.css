@@ -73,6 +73,11 @@ body {
     color: rgb(170, 42, 42);
 }
 
+.bg-blue {
+    background: rgb(45, 86, 199);
+    color: white;
+}
+
 .t-upper {
     font-size: 3rem;
 }

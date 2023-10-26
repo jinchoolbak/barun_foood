@@ -75,11 +75,6 @@
     border: 1px solid black;
 }
 
-.c-title li:first-child {
-    background:  rgb(45, 86, 199);
-    color: white;
-}
-
 .c-body1,
 .c-body2,
 .c-body3,
