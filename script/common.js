@@ -1,6 +1,11 @@
 "use strict";
 
 $(() => {
+    //search 
+    $(".search input").on("click", (() => {
+        $(".search input").addClass("bg-blue");
+    }));
+
     //carousel
     $(".carousel > img:gt(0)").fadeOut(); //투명도를 0으로 하고 display:none을 추가
 

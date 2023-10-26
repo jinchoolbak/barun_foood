@@ -14,7 +14,7 @@
 .popup-info {
     position: absolute;
     top: 10%;
-    left: 25%;
+    left: 23%;
     width: 1000px;
     height: 750px;
     background: white;
@@ -67,8 +67,21 @@
     font-size: 1rem;
 }
 
+.p-close-tod {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    border: 0;
+    background: black;
+    color: white;
+    border-radius: 3px;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.p-close-tod:hover,
 .p-close:hover {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 /* new */

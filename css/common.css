@@ -124,14 +124,6 @@ hr {
     color: rgb(45, 86, 199);
 }
 
-.header input {
-    width: 200px;
-    height: 30px;
-    border: 0;
-    opacity: 30%;
-    color: black;
-}
-
 .search {
     border: 0;
     height: 30px;
@@ -139,7 +131,13 @@ hr {
 }
 
 .search input {
+    width: 200px;
+    height: 30px;
+    border: 0;
+    color: rgb(255, 255, 255);
     border: 1px solid gray;
+    opacity: 80%;
+    text-indent: 5%;
 }
 
 .search button {
@@ -148,7 +146,7 @@ hr {
     font-size: 1rem;
     position: absolute;
     right: -12%;
-    top: 110%;
+    top: 115%;
 }
 
 /* nav */
