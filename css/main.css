@@ -376,6 +376,7 @@
     #find #f-body {
         display: inline-block;
         margin-left: 3.4rem;
+        font-size: .9rem;
     }
     
     #find #f-body .f-l ul {
@@ -411,77 +412,28 @@
 @media all and (max-width: 425px) {
      /* popup */
     .popup-info {
-        width: 50%;
-        height: 20%;
         top: 20%;
         left: 23%;
     }
 
-    .popup-info h2 {
-        font-size: 1rem;
-        margin-bottom: 1rem;
-    }
-    
-    .popup-info p {
-        font-size: .8rem;
-        margin-bottom: 1rem;
-    }
-
-    .popup-info .p-close {
-        font-size: .6rem;
-    }
-    
     /* new */
-    #new {
-        height: 750px;
-        text-align: center;
-    }
-    
-    #new h2 {
-        font-size: 1.3rem;
-    }
-    #new h2 span {
-        font-size: 1.8rem;
-    }
-    
-    #new button {
-        right: 9%;
-        top: 21%;
-    }
-    
     #new ul {
-        display: inline-block;
-        width: 350px;
-        border-top: 1px solid black;
-    }
-    
-    #new ul li:nth-child(1) {
-        margin-top: 2rem;
+        width: 330px;
     }
     
     #new ul li a {
         text-align: left;
-        display: flex;
         justify-content: center;
         gap: 1rem;
-        margin-bottom: 2rem;
+    }
+    
+    #new ul li img {
+        width: 130px;
+        height: 130px;
     }
     
     #new li .texts {
-        margin-top: 3rem;
-        margin-left: 1rem;
-        font-size: .8rem;
-        text-align: left;
-    }
-    
-    #new li #price {
-        display: inline-block;
-    } 
-    
-    #new li img {
-        border-radius: 200px;
-        width: 40%;
-        margin-left: 2rem;
+        margin-left: .5rem;
     }
     
     #new li:hover h4 {
@@ -491,41 +443,15 @@
     }
 
     /* find */
-    #find {
-        height: 600px;
-    }
-
-    #find h2 {
-        font-size: 1.7rem;
-    }
-    
-    #find .f-tag li span {
-        display: none;
-    }
-    
     #find #f-body {
-        display: inline-block;
         margin-left: .8rem;
         font-size: .8rem;
-    }
-    
-    #find #f-body .f-l ul {
-        display: flex;
-    }
-    
-    #find #f-body .f-l li {
-        width: 200px;
-        height: 250px;
     }
 
     #find img {
         border-radius: 50%;
     }
     
-    #find #f-body .f-c {
-        display: none;
-    }
-
     #find li:hover h4 {
         top: 35%;
         left: 44%;
@@ -533,16 +459,7 @@
     }
     
     /* popular */
-    
-    #popular {
-        height: 350px;
-        display: inline-block;
-    }
-    
     #popular ul {
-        width: 380px;
-        height: 150px;
-        margin: 1rem 0;
         margin-left: 1.5rem;
     }
 
