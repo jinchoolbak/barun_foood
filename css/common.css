@@ -134,9 +134,9 @@ hr {
     width: 200px;
     height: 30px;
     border: 0;
-    color: rgb(255, 255, 255);
+    color: white;
     border: 1px solid gray;
-    opacity: 80%;
+    opacity: 70%;
     text-indent: 5%;
 }
 
@@ -175,7 +175,7 @@ footer {
 }
 
 .footer {
-    height: 100px;
+    height: 120px;
     font-size: .8rem;
 }
 
@@ -209,6 +209,7 @@ footer {
 }
 
 .copy {
+    margin-top: .5rem;
     font-size: .8rem;
     font-style: italic;
 }

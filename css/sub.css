@@ -26,8 +26,10 @@
 #best h4 {
     display: none;
     position: absolute;
-    right: 30%;
-    top: 39%;
+    right: 43%;
+    top: 38%;
+    font-size: 2rem;
+    color: rgb(45, 86, 199);
 }
 
 #best li:hover h4 {
@@ -97,10 +99,11 @@
 .c-body6 li,
 .c-body7 li {
     width: 220px;
-    height: 260px;
+    height: 280px;
     position: relative;
     margin: .5rem 0;
     font-size: 1rem;
+    font-weight: 600;
 }
 
 .c-body1 li:hover img,
@@ -123,6 +126,11 @@
     border-radius: 20px;
 }
 
+#c-tab .cost {
+    text-decoration: line-through;
+    padding: 0;
+}
+
 .c-body1 li p,
 .c-body2 li p,
 .c-body3 li p,
@@ -130,8 +138,7 @@
 .c-body5 li p,
 .c-body6 li p,
 .c-body7 li p {
-    text-align: left;
-    padding: 0 15px;
+    margin: .2rem 0;
 }
 
 .c-body1 button,
@@ -143,13 +150,12 @@
 .c-body7 button {
     display: none;
     position: absolute;
-    top: 30%;
-    right: 35%;
+    top: 33%;
+    right: 43%;
+    font-size: 1.5rem;
+    color: rgb(45, 86, 199);
     border: 0;
-    border-radius: 30px;
-    background: white;
-    border: 1px solid black;
-    padding: 1rem;
+    background: none;
 }
 
 .c-body1 li:hover button,
@@ -160,16 +166,6 @@
 .c-body6 li:hover button,
 .c-body7 li:hover button {
     display: block;
-}
-
-.c-body1 button:hover,
-.c-body2 button:hover,
-.c-body3 button:hover,
-.c-body4 button:hover,
-.c-body5 button:hover,
-.c-body6 button:hover,
-.c-body7 button:hover {
-    font-size: 1rem;
 }
 
 /*---media query-------*/

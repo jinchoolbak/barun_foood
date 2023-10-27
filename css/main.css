@@ -102,9 +102,10 @@
 #new h4 {
     display: none;
     position: absolute;
-    right: 40%;
-    top: 35%;
-    font-size: 3rem;
+    right: 43%;
+    top: 38%;
+    font-size: 2rem;
+    color: rgb(45, 86, 199);
 }
 
 #new li:hover h4 {
@@ -177,17 +178,19 @@
 #f-body li h4 {
     display: none;
     position: absolute;
-    top: 35%;
-    left: 40%;
-    font-size: 3rem;
+    top: 40%;
+    left: 46%;
+    font-size: 1.5rem;
+    color: rgb(45, 86, 199);
 }
 
 #f-body .f-c h4 {
     display: none;
     position: absolute;
-    top: 40%;
-    left: 42%;
-    font-size: 5rem;
+    top: 43%;
+    left: 46%;
+    font-size: 2.5rem;
+    color: rgb(45, 86, 199);
 }
 
 #f-body li:hover img {
