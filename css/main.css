@@ -33,6 +33,7 @@
 
 .popup img {
     width: 90%;
+    height: 550px;
 }
 
 .popup img:hover {
@@ -279,13 +280,14 @@
     /* popup */
     .popup-info {
         width: 50%;
-        height: 40%;
-        top: 20%;
+        height: 20%;
+        top: 25%;
         left: 25%;
     }
 
     .popup-info h2 {
         font-size: 1rem;
+        margin-top: 1.6rem;
         margin-bottom: 1rem;
     }
     
@@ -294,7 +296,11 @@
         margin-bottom: 1rem;
     }
 
-    .popup-info .p-close {
+    .popup-info img {
+        display: none;
+    }
+
+    .popup-info .p-close, .p-close-tod {
         font-size: .6rem;
     }
     
@@ -328,27 +334,30 @@
     }
     
     #new ul li a {
-        text-align: left;
         display: flex;
-        justify-content: center;
-        gap: 1rem;
         margin-bottom: 2rem;
     }
     
     #new li .texts {
-        font-size: .9rem;
-        margin: 3rem 0;
-        width: 200px;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        font-size: .8rem;
+        text-align: left;
     }
+    
+    #new li #price {
+        display: inline-block;
+    } 
     
     #new li img {
         border-radius: 200px;
         width: 40%;
+        margin-left: 2rem;
     }
     
     #new li:hover h4 {
-        top: 44%;
-        left: 11%;
+        top: 40%;
+        left: 24%;
     }
     
     /* find */
@@ -403,7 +412,7 @@
      /* popup */
     .popup-info {
         width: 50%;
-        height: 36%;
+        height: 20%;
         top: 20%;
         left: 23%;
     }
@@ -459,21 +468,28 @@
     }
     
     #new li .texts {
-        font-size: .9rem;
-        margin: 3rem 0;
-        width: 200px;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        font-size: .8rem;
+        text-align: left;
     }
+    
+    #new li #price {
+        display: inline-block;
+    } 
     
     #new li img {
         border-radius: 200px;
         width: 40%;
+        margin-left: 2rem;
     }
     
     #new li:hover h4 {
-        top: 44%;
-        left: 11%;
+        top: 42%;
+        left: 28%;
+        font-size: 1rem;
     }
-    
+
     /* find */
     #find {
         height: 600px;
@@ -490,6 +506,7 @@
     #find #f-body {
         display: inline-block;
         margin-left: .8rem;
+        font-size: .8rem;
     }
     
     #find #f-body .f-l ul {
@@ -500,9 +517,19 @@
         width: 200px;
         height: 250px;
     }
+
+    #find img {
+        border-radius: 50%;
+    }
     
     #find #f-body .f-c {
         display: none;
+    }
+
+    #find li:hover h4 {
+        top: 35%;
+        left: 44%;
+        font-size: 1.5rem;
     }
     
     /* popular */
