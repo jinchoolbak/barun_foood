@@ -307,7 +307,7 @@
     
     /* new */
     #new {
-        height: 750px;
+        height: 740px;
         text-align: center;
     }
     
@@ -352,7 +352,7 @@
     #new li img {
         border-radius: 200px;
         width: 40%;
-        margin-left: 2rem;
+        margin-left: 1.5rem;
     }
     
     #new li:hover h4 {
@@ -443,7 +443,7 @@
 
     /* find */
     #find #f-body {
-        margin-left: .8rem;
+        margin-left: .5rem;
         font-size: .8rem;
     }
 
