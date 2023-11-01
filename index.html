@@ -43,14 +43,12 @@
                 </a>
             </div>
             <div class="h-right d-flex g3">
-                <fieldset class="search">
-                    <form action="#">
-                        <legend>
-                            <input type="search" placeholder="검색어를 입력하세요.">
-                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        </legend>
-                    </form>
-                </fieldset>
+                <form>
+                    <fieldset class="search">
+                        <input type="search" placeholder="검색어를 입력하세요.">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </fieldset>
+                </form>
                 <div class="login d-flex g2">
                     <a href="javascript:void(0);"><i class="fa-solid fa-lock"></i> login </a>
                     <a href="javascript:void(0);"><i class="fa-solid fa-user"></i> join </a>
@@ -69,8 +67,8 @@
         </div>
     </header>
     <main>
-        <h2 class="d-none">메인 - 메인 시작</h2>
         <article>
+            <h2 class="d-none">메인 - 메인 시작</h2>
             <div class="carousel d-flex">
                 <img src="images/bg1.png" alt="bg1">
                 <img src="images/bg2.png" alt="bg2">
@@ -80,55 +78,55 @@
 
         <article>
             <div id="new" class="container py3">
-                <a href="sub.html#c-tab"><button type="button"><i class="fa-solid fa-square-plus"></i></button></a>
+                <div class="plus"><a href="sub.html#c-tab"><i class="fa-solid fa-square-plus"></i></a></div>
                 <h2 class="t-center py3"><span class="t-upper">NEW</span><br> 신제품 출시 </h2>
                 <ul class="d-flex j-center g3">
                     <li>
                         <a href="javascript:void(0);">
-                            <img src="images/n1.jpg" width="350px" alt="n1">
+                            <img src="images/n1.jpg" class="n1" alt="n1">
                             <div class="texts">
                                 <p class="t-bold">통 닭가슴살 1kg(2개입)</p>
-                                <div id="price" class="t-bold d-flex j-between">
+                                <div id="price1" class="t-bold d-flex j-between">
                                     <div class="d-flex">
-                                        <p class="t-blue">15,000원</span></p>
+                                        <p class="t-blue">15,000원</p>
                                         <p class="cost">30,000원</p>
                                     </div>
                                     <p class="sale t-red"><i class="fa-solid fa-caret-down"></i> 50% </p>
                                 </div>
                             </div>
-                            <h4><i class="fa-solid fa-basket-shopping"></i></h4>
+                            <i class="fa-solid fa-basket-shopping"></i>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:void(0);">
-                            <img src="images/n2.jpg" width="350px" alt="n2">
+                            <img src="images/n2.jpg" class="n1" alt="n2">
                             <div class="texts">
                                 <p class="t-bold">한입 닭가슴살 300g(20개입)</p>
-                                <div id="price" class="t-bold d-flex j-between">
+                                <div id="price2" class="t-bold d-flex j-between">
                                     <div class="d-flex">
-                                        <p class="t-blue">17,000원</span></p>
+                                        <p class="t-blue">17,000원</p>
                                         <p class="cost">30,000원</p>
                                     </div>
                                     <p class="sale t-red"><i class="fa-solid fa-caret-down"></i> 50% </p>
                                 </div>
                             </div>
-                            <h4> <i class="fa-solid fa-basket-shopping"></i></h4>
+                            <i class="fa-solid fa-basket-shopping"></i>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:void(0);">
-                            <img src="images/n3.jpg" width="350px" alt="n3">
+                            <img src="images/n3.jpg" class="n1"  alt="n3">
                             <div class="texts">
                                 <p class="t-bold">크리스피 닭가슴살 100g(10개입)</p>
-                                <div id="price" class="t-bold d-flex j-between">
+                                <div id="price3" class="t-bold d-flex j-between">
                                     <div class="d-flex">
-                                        <p class="t-blue">15,000원</span></p>
+                                        <p class="t-blue">15,000원</p>
                                         <p class="cost">30,000원</p>
                                     </div>
                                     <p class="sale t-red"><i class="fa-solid fa-caret-down"></i> 50% </p>
                                 </div>
                             </div>
-                            <h4> <i class="fa-solid fa-basket-shopping"></i></h4>
+                            <i class="fa-solid fa-basket-shopping"></i>
                         </a>
                     </li>
                 </ul>
@@ -152,68 +150,68 @@
                         <ul>
                             <li>
                                 <a href="javascript:void(0);">
-                                    <img src="images/f1.jpg" width="90%" alt="f1">
+                                    <img src="images/f1.jpg" class="f1" alt="f1">
                                     <p class="name t-bold">훈제 닭가슴살</p>
                                     <div class="d-flex t-bold">
-                                        <p class="t-blue">15,000원</span></p>
+                                        <p class="t-blue">15,000원</p>
                                         <p class="cost">30,000원</p>
                                         <p class="sale t-red"><i class="fa-solid fa-caret-down"></i> 50% </p>
                                     </div>
-                                    <h4> <i class="fa-solid fa-basket-shopping"></i></h4>
+                                    <i class="fa-solid fa-basket-shopping"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0);">
-                                    <img src="images/c3.jpg" width="90%" alt="f1">
+                                    <img src="images/c3.jpg" class="f1" alt="f1">
                                     <p class="name t-bold">한입닭가슴살</p>
                                     <div class="d-flex t-bold">
-                                        <p class="t-blue">15,000원</span></p>
+                                        <p class="t-blue">15,000원</p>
                                         <p class="cost">30,000원</p>
                                         <p class="sale t-red"><i class="fa-solid fa-caret-down"></i> 50% </p>
                                     </div>
-                                    <h4> <i class="fa-solid fa-basket-shopping"></i></h4>
+                                    <i class="fa-solid fa-basket-shopping"></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div class="f-c">
                         <a href="javascript:void(0);">
-                            <img src="images/f3.jpg" width="95%" alt="f3">
+                            <img src="images/f3.jpg" class="f3" alt="f3">
                             <p class="t-bold"> 통 닭가슴살 7종 혼합 100g</p>
                             <div class="d-flex t-bold j-center g2">
                                 <div class="d-flex">
-                                    <p class="t-blue">15,000원</span></p>
+                                    <p class="t-blue">15,000원</p>
                                     <p class="cost">30,000원</p>
                                 </div>
                                 <p class="sale t-red"><i class="fa-solid fa-caret-down"></i> 50% </p>
                             </div>
-                            <h4> <i class="fa-solid fa-basket-shopping"></i></h4>
+                            <i class="fa-solid fa-basket-shopping"></i>
                         </a>
                     </div>
                     <div class="f-l">
                         <ul>
                             <li>
                                 <a href="javascript:void(0);">
-                                    <img src="images/c7.jpg" width="90%" alt="f1">
+                                    <img src="images/c7.jpg" class="f1" alt="f1">
                                     <p class="t-bold">닭가슴살바</p>
                                     <div class="d-flex t-bold">
-                                        <p class="t-blue">15,000원</span></p>
+                                        <p class="t-blue">15,000원</p>
                                         <p class="cost">30,000원</p>
                                         <p class="sale t-red"><i class="fa-solid fa-caret-down"></i> 50% </p>
                                     </div>
-                                    <h4> <i class="fa-solid fa-basket-shopping"></i></h4>
+                                    <i class="fa-solid fa-basket-shopping"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0);">
-                                    <img src="images/c4.jpg" width="90%" alt="f1">
+                                    <img src="images/c4.jpg" class="f1" alt="f1">
                                     <p class="t-bold">크리스피 닭가슴살</p>
                                     <div class="d-flex t-bold">
-                                        <p class="t-blue">15,000원</span></p>
+                                        <p class="t-blue">15,000원</p>
                                         <p class="cost">30,000원</p>
                                         <p class="sale t-red"><i class="fa-solid fa-caret-down"></i> 50% </p>
                                     </div>
-                                    <h4> <i class="fa-solid fa-basket-shopping"></i></h4>
+                                    <i class="fa-solid fa-basket-shopping"></i>
                                 </a>
                             </li>
                         </ul>
@@ -229,21 +227,23 @@
                     <ul class="pop1">
                         <li class="t-bold"><span class="t-red t-big">인기</span>상품 <br>
                             이달의 베스트 인기
+                            <p><i class="fa-solid fa-trophy"></i></p>
                         </li>
-                        <p><i class="fa-solid fa-trophy"></i></p>
                     </ul>
                 </a>
 
                 <ul class="pop2">
                     <li class="t-bold"><span class="t-red t-big">판매율 1위</span>상품 <br>
-                    2023년도 판매율 1위</li>
+                    2023년도 판매율 1위
                     <p><i class="fa-solid fa-trophy"></i></p>
+                </li>
                 </ul>
 
                 <ul class="pop3">
                     <li class="t-bold"><span class="t-red t-big">급상승</span>상품 <br>
-                    이달의 급상승 상품</li>
+                    이달의 급상승 상품
                     <p><i class="fa-solid fa-trophy"></i></p>
+                </li>
                 </ul>
             </div>
         </article>
@@ -261,7 +261,7 @@
                 <p>브랜드명 : 바른푸드</p>
                 <p>본사 : 광주광역시 서구 금호동 </p>
                 <p>회사명 : (주)바른푸드 | 대표 : 박진출 | 개인정보보호정책 및 담당 : 박진출</p>
-                <p>사업자등록번호 : 111-00-345674 | 전화번호 : 010-6809-9059</p></p>
+                <p>사업자등록번호 : 111-00-345674 | 전화번호 : 010-6809-9059</p>
                 <p class="copy">copyright&copy;by barunfoood All Right Reserved.</p>
             </div>
             <div class="sns">

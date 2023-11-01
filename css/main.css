@@ -88,32 +88,11 @@
 /* new */
 
 #new {
-    height: 600px;
+    height: 650px;
     position: relative;
 }
 
-#new li {
-    position: relative;
-}
-
-#new li:hover img {
-    opacity: 30%;
-}
-
-#new h4 {
-    display: none;
-    position: absolute;
-    right: 43%;
-    top: 38%;
-    font-size: 2rem;
-    color: rgb(45, 86, 199);
-}
-
-#new li:hover h4 {
-    display: flex;
-}
-
-#new button {
+#new .plus {
     border: 0;
     background: none;
     font-size: 1.5rem;
@@ -122,9 +101,35 @@
     right: 11%;
 }
 
-#new button:hover i {
+#new li {
+    position: relative;
+}
+
+#new .n1 {
+    width: 350px;
+}
+
+#new li:hover img {
+    opacity: 30%;
+}
+
+#new li i:last-child {
+    display: none;
+    position: absolute;
+    right: 43%;
+    top: 38%;
+    font-size: 2rem;
     color: rgb(45, 86, 199);
-    border-top: 1px solid black;
+}
+
+#new li:hover i {
+    display: flex;
+}
+
+
+
+#new .plus:hover {
+    color: rgb(45, 86, 199);
 }
 
 #new img {
@@ -167,6 +172,14 @@
     position: relative;
 }
 
+#f-body .f1 {
+    width: 90%;
+}
+
+#f-body .f3 {
+    width: 95%;
+}
+
 #f-body .f-c {
     position: relative;
 }
@@ -176,7 +189,7 @@
     border-radius: 20px;
 }
 
-#f-body li h4 {
+#f-body li i:last-child {
     display: none;
     position: absolute;
     top: 40%;
@@ -185,7 +198,7 @@
     color: rgb(45, 86, 199);
 }
 
-#f-body .f-c h4 {
+#f-body .f-c i:last-child {
     display: none;
     position: absolute;
     top: 43%;
@@ -198,11 +211,11 @@
     opacity: 30%;
 }
 
-#f-body li:hover h4 {
+#f-body li:hover i:last-child {
     display: block;
 }
 
-#f-body .f-c:hover h4 {
+#f-body .f-c:hover i:last-child {
     display: block;
 }
 
@@ -307,26 +320,31 @@
     
     /* new */
     #new {
-        height: 740px;
+        height: 800px;
         text-align: center;
     }
     
     #new h2 {
         font-size: 1.3rem;
     }
+
     #new h2 span {
         font-size: 1.8rem;
     }
     
-    #new button {
+    #new .plus {
         right: 10%;
-        top: 21%;
+        top: 20%;
     }
     
     #new ul {
         display: inline-block;
         width: 400px;
         border-top: 1px solid black;
+    }
+
+    #new .n1 {
+        width: 180px;
     }
     
     #new ul li:nth-child(1) {
@@ -345,7 +363,9 @@
         text-align: left;
     }
     
-    #new li #price {
+    #new li #price1,
+    #new li #price2,
+    #new li #price3 {
         display: inline-block;
     } 
     
@@ -355,7 +375,7 @@
         margin-left: 1.5rem;
     }
     
-    #new li:hover h4 {
+    #new li:hover i:last-child {
         top: 40%;
         left: 24%;
     }
@@ -378,6 +398,10 @@
         margin-left: 3.4rem;
         font-size: .9rem;
     }
+
+    #find #f-body img {
+        border-radius: 50%;
+    }
     
     #find #f-body .f-l ul {
         display: flex;
@@ -390,6 +414,11 @@
     
     #find #f-body .f-c {
         display: none;
+    }
+      
+    #find li:hover i:last-child {
+        top: 40%;
+        left: 43%;
     }
     
     /* popular */
@@ -417,8 +446,21 @@
     }
 
     /* new */
+    #new {
+        height: 680px;
+    }
+
+    #new .plus {
+        top: 23%;
+    }
+
     #new ul {
         width: 340px;
+    }
+
+    #new .n1 {
+        width: 140px;
+        height: 140px;
     }
     
     #new ul li a {
@@ -435,7 +477,7 @@
         margin-left: .5rem;
     }
     
-    #new li:hover h4 {
+    #new li:hover i:last-child {
         top: 42%;
         left: 26%;
         font-size: 1rem;
@@ -451,7 +493,7 @@
         border-radius: 50%;
     }
     
-    #find li:hover h4 {
+    #find li:hover i:last-child {
         top: 35%;
         left: 44%;
         font-size: 1.5rem;
