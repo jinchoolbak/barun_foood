@@ -23,7 +23,7 @@
     opacity: 30%;
 }
 
-#best h4 {
+#best i:last-child {
     display: none;
     position: absolute;
     right: 43%;
@@ -32,7 +32,7 @@
     color: rgb(45, 86, 199);
 }
 
-#best li:hover h4 {
+#best li:hover i:last-child {
     display: block;
 }
 
@@ -75,6 +75,10 @@
     border-radius: 10px;
     text-align: center;
     border: 1px solid black;
+}
+
+#c-tab .c-img {
+    width: 200px;
 }
 
 .c-body1,
@@ -141,13 +145,13 @@
     margin: .2rem 0;
 }
 
-.c-body1 button,
-.c-body2 button,
-.c-body3 button,
-.c-body4 button,
-.c-body5 button,
-.c-body6 button,
-.c-body7 button {
+.c-body1 i:last-child,
+.c-body2 i:last-child,
+.c-body3 i:last-child,
+.c-body4 i:last-child,
+.c-body5 i:last-child,
+.c-body6 i:last-child,
+.c-body7 i:last-child {
     display: none;
     position: absolute;
     top: 33%;
@@ -158,13 +162,13 @@
     background: none;
 }
 
-.c-body1 li:hover button,
-.c-body2 li:hover button,
-.c-body3 li:hover button,
-.c-body4 li:hover button,
-.c-body5 li:hover button,
-.c-body6 li:hover button,
-.c-body7 li:hover button {
+.c-body1 li:hover i:last-child,
+.c-body2 li:hover i:last-child,
+.c-body3 li:hover i:last-child,
+.c-body4 li:hover i:last-child,
+.c-body5 li:hover i:last-child,
+.c-body6 li:hover i:last-child,
+.c-body7 li:hover i:last-child {
     display: block;
 }
 
@@ -214,7 +218,10 @@
         text-align: left;
     }
     
-    #best li #price {
+    #best li #price1,
+    #best li #price2,
+    #best li #price3,
+    #best li #price4 {
         display: inline-block;
     } 
     
@@ -224,7 +231,7 @@
         margin-left: 2rem;
     }
     
-    #best li:hover h4 {
+    #best li:hover i:last-child {
         top: 42%;
         left: 25%;
         font-size: 1.3rem;
