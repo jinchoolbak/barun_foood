@@ -113,7 +113,7 @@
     opacity: 30%;
 }
 
-#new li i:last-child {
+#new li .fa-basket-shopping {
     display: none;
     position: absolute;
     right: 43%;
@@ -122,7 +122,7 @@
     color: rgb(45, 86, 199);
 }
 
-#new li:hover i {
+#new li:hover .fa-basket-shopping {
     display: flex;
 }
 
@@ -189,7 +189,7 @@
     border-radius: 20px;
 }
 
-#f-body li i:last-child {
+#f-body li .fa-basket-shopping  {
     display: none;
     position: absolute;
     top: 40%;
@@ -198,7 +198,7 @@
     color: rgb(45, 86, 199);
 }
 
-#f-body .f-c i:last-child {
+#f-body .f-c .fa-basket-shopping  {
     display: none;
     position: absolute;
     top: 43%;
@@ -211,11 +211,11 @@
     opacity: 30%;
 }
 
-#f-body li:hover i:last-child {
+#f-body li:hover .fa-basket-shopping  {
     display: block;
 }
 
-#f-body .f-c:hover i:last-child {
+#f-body .f-c:hover .fa-basket-shopping  {
     display: block;
 }
 
@@ -375,7 +375,7 @@
         margin-left: 1.5rem;
     }
     
-    #new li:hover i:last-child {
+    #new li:hover .fa-basket-shopping  {
         top: 40%;
         left: 24%;
     }
@@ -416,7 +416,7 @@
         display: none;
     }
       
-    #find li:hover i:last-child {
+    #find li:hover .fa-basket-shopping {
         top: 40%;
         left: 43%;
     }
@@ -477,7 +477,7 @@
         margin-left: .5rem;
     }
     
-    #new li:hover i:last-child {
+    #new li:hover .fa-basket-shopping {
         top: 42%;
         left: 26%;
         font-size: 1rem;
@@ -493,7 +493,7 @@
         border-radius: 50%;
     }
     
-    #find li:hover i:last-child {
+    #find li:hover .fa-basket-shopping {
         top: 35%;
         left: 44%;
         font-size: 1.5rem;
