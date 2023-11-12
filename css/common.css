@@ -163,6 +163,7 @@ hr {
 
 /* carousel */
 .carousel img {
+    width: 100%;
     height: 300px;
     /* background: url("../images/bg1.jpg") no-repeat center / cover; */
 }
